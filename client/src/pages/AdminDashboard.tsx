@@ -6,7 +6,7 @@ import { PieChart, Pie, Cell, BarChart, Bar, LineChart, Line, AreaChart, Area, X
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { useLocation } from "wouter";
+// Import uniquement ce dont nous avons besoin
 
 type PredictionStats = {
   totalPredictions: number;
