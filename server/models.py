@@ -66,8 +66,8 @@ class AnfisModel:
             "IF (Temperature IS low) AND (Rainfall IS high) AND (Humidity IS high) THEN (Irrigation IS low)"
         ])
         
-        # Set defuzzification method
-        self.FS.set_defuzzification_method("centroid")
+        # Set defuzzification method - Simpful v2.12.0 uses the parameter in inference()
+        # Default is already centroid, so we don't need to specify it here
     
     def predict(self, temperature, rainfall, humidity, ph):
         # Set input variables

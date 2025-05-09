@@ -23,15 +23,17 @@ const HeroSection = () => {
               Predict the best irrigation techniques, crop selection, and resource management using our advanced fuzzy logic system.
             </p>
             <div className="mt-8 flex gap-x-4">
-              <Link href="/predict">
-                <a className="bg-[#4CAF50] hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md text-lg transition shadow-lg">
-                  Try Prediction Now
-                </a>
+              <Link 
+                href="/predict"
+                className="bg-[#4CAF50] hover:bg-green-600 text-white font-medium py-3 px-6 rounded-md text-lg transition shadow-lg"
+              >
+                Try Prediction Now
               </Link>
-              <Link href="/about">
-                <a className="bg-white text-[#4CAF50] border border-[#4CAF50] font-medium py-3 px-6 rounded-md text-lg transition hover:bg-gray-50">
-                  Learn More
-                </a>
+              <Link 
+                href="/about"
+                className="bg-white text-[#4CAF50] border border-[#4CAF50] font-medium py-3 px-6 rounded-md text-lg transition hover:bg-gray-50"
+              >
+                Learn More
               </Link>
             </div>
           </div>
