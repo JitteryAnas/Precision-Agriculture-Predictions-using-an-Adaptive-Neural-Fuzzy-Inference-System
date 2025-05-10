@@ -1,0 +1,213 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "submit": "إرسال",
+    "processing": "جاري المعالجة...",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "refresh": "تحديث",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "close": "إغلاق",
+    "open": "فتح",
+    "more": "المزيد",
+    "less": "أقل",
+    "all": "الكل",
+    "none": "لا شيء",
+    "select": "اختيار",
+    "deselect": "إلغاء الاختيار",
+    "confirm": "تأكيد",
+    "reject": "رفض",
+    "success": "نجاح",
+    "warning": "تحذير",
+    "info": "معلومات",
+    "required": "مطلوب",
+    "optional": "اختياري"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "predict": "التنبؤ",
+    "dashboard": "لوحة التحكم",
+    "documentation": "الوثائق",
+    "faq": "الأسئلة الشائعة",
+    "about": "حول",
+    "contact": "اتصل بنا",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل"
+  },
+  "home": {
+    "title": "مرحباً بك في AgriFuzzy",
+    "subtitle": "تنبؤات زراعية مدعومة بالذكاء الاصطناعي",
+    "description": "احصل على تنبؤات وتوصيات دقيقة لمزرعتك باستخدام تقنية الذكاء الاصطناعي المتقدمة",
+    "getStarted": "ابدأ الآن",
+    "learnMore": "اعرف المزيد",
+    "features": {
+      "title": "الميزات الرئيسية",
+      "prediction": "تنبؤات الذكاء الاصطناعي",
+      "predictionDesc": "احصل على تنبؤات دقيقة لمحاصيلك وأفضل ظروف النمو",
+      "management": "إدارة المزرعة",
+      "managementDesc": "أدر عمليات مزرعتك بكفاءة مع أدواتنا الشاملة",
+      "analytics": "تحليلات متقدمة",
+      "analyticsDesc": "حلل بيانات مزرعتك باستخدام أدوات تصور قوية"
+    },
+    "testimonials": {
+      "title": "ماذا يقول مستخدمونا",
+      "subtitle": "انضم إلى آلاف المزارعين الراضين حول العالم"
+    }
+  },
+  "predict": {
+    "title": "تنبؤات ذكاء اصطناعي لمزرعتك",
+    "description": "أدخل بيانات مزرعتك أدناه للحصول على توصيات مدعومة بالذكاء الاصطناعي لإدارة المحاصيل المثلى",
+    "form": {
+      "environmentalData": {
+        "title": "البيانات البيئية",
+        "description": "الظروف الجوية والمناخية الحالية",
+        "temperature": "درجة الحرارة (°C)",
+        "rainfall": "هطول الأمطار (مم)",
+        "humidity": "الرطوبة (%)",
+        "avgTemp": "متوسط درجة الحرارة (°C)"
+      },
+      "soilData": {
+        "title": "بيانات التربة",
+        "description": "تركيب وخصائص التربة",
+        "soilType": "نوع التربة",
+        "selectType": "اختر النوع",
+        "types": {
+          "clay": "طينية",
+          "sandy": "رملية",
+          "loamy": "طميية",
+          "silt": "غرينية"
+        },
+        "ph": "درجة حموضة التربة",
+        "moisture": "رطوبة التربة (%)",
+        "nitrogen": "النيتروجين (كجم/هكتار)",
+        "phosphorus": "الفوسفور (كجم/هكتار)"
+      },
+      "locationHistory": {
+        "title": "الموقع والتاريخ",
+        "description": "المعلومات الجغرافية والتاريخية",
+        "region": "المنطقة",
+        "previousCrop": "المحصول السابق",
+        "faoClassification": "تصنيف الفاو",
+        "dominantSoil": "التربة السائدة"
+      },
+      "submit": "الحصول على تنبؤات الذكاء الاصطناعي",
+      "processing": "جاري المعالجة..."
+    },
+    "results": {
+      "analyzing": "جاري تحليل بيانات مزرعتك...",
+      "noPredictions": "املأ النموذج وانقر على \"الحصول على تنبؤات الذكاء الاصطناعي\" لرؤية نتائجك",
+      "waterManagement": {
+        "title": "إدارة المياه",
+        "description": "الري ومتطلبات المياه",
+        "waterRequirement": "متطلبات المياه",
+        "waterRequirementDesc": "الاحتياجات المائية المثلى لمحاصيلك",
+        "irrigation": "جدول الري",
+        "irrigationDesc": "تكرار وتوقيت الري الموصى به"
+      },
+      "soilManagement": {
+        "title": "إدارة التربة",
+        "description": "صحة التربة وتوصيات الأسمدة",
+        "fertilizer": "توصية الأسمدة",
+        "fertilizerDesc": "خليط الأسمدة الأمثل لتربتك",
+        "soilPrep": "تحضير التربة",
+        "soilPrepDesc": "طرق تحضير التربة الموصى بها"
+      },
+      "cropManagement": {
+        "title": "إدارة المحاصيل",
+        "description": "جداول الزراعة والحصاد",
+        "planting": "تاريخ الزراعة",
+        "plantingDesc": "الوقت الأمثل لزراعة محاصيلك",
+        "harvesting": "تاريخ الحصاد",
+        "harvestingDesc": "الوقت المتوقع لحصاد المحاصيل"
+      },
+      "riskAssessment": {
+        "title": "تقييم المخاطر",
+        "description": "التهديدات المحتملة والتدابير الوقائية",
+        "pests": "مخاطر الآفات",
+        "pestsDesc": "التهديدات المحتملة للآفات واستراتيجيات الوقاية",
+        "diseases": "مخاطر الأمراض",
+        "diseasesDesc": "التهديدات المحتملة للأمراض واستراتيجيات الوقاية"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "لوحة تحكم المزرعة",
+    "overview": "نظرة عامة",
+    "statistics": "إحصائيات",
+    "recentActivity": "النشاط الأخير",
+    "upcomingTasks": "المهام القادمة",
+    "weather": "الطقس",
+    "soilConditions": "حالة التربة",
+    "cropHealth": "صحة المحاصيل",
+    "predictions": "التنبؤات",
+    "recommendations": "التوصيات"
+  },
+  "documentation": {
+    "title": "الوثائق",
+    "gettingStarted": "البدء",
+    "features": "الميزات",
+    "api": "مرجع API",
+    "guides": "الأدلة",
+    "faq": "الأسئلة الشائعة",
+    "support": "الدعم"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "search": "البحث في الأسئلة الشائعة",
+    "categories": "الفئات",
+    "popular": "الأسئلة الشائعة",
+    "recent": "الأسئلة الأخيرة"
+  },
+  "about": {
+    "title": "حول AgriFuzzy",
+    "mission": "مهمتنا",
+    "team": "فريقنا",
+    "technology": "تقنيتنا",
+    "partners": "شركاؤنا",
+    "careers": "وظائف"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "form": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "submit": "إرسال الرسالة"
+    },
+    "info": {
+      "address": "العنوان",
+      "phone": "الهاتف",
+      "email": "البريد الإلكتروني",
+      "hours": "ساعات العمل"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "profile": "إعدادات الملف الشخصي",
+    "account": "إعدادات الحساب",
+    "notifications": "إعدادات الإشعارات",
+    "privacy": "إعدادات الخصوصية",
+    "language": "إعدادات اللغة",
+    "theme": "إعدادات المظهر"
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": "المعلومات الشخصية",
+    "farmInfo": "معلومات المزرعة",
+    "preferences": "التفضيلات",
+    "security": "إعدادات الأمان"
+  }
+} 

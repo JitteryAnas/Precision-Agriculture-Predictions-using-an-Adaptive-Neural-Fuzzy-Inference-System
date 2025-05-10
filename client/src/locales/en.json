@@ -1,0 +1,213 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "submit": "Submit",
+    "processing": "Processing...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "more": "More",
+    "less": "Less",
+    "all": "All",
+    "none": "None",
+    "select": "Select",
+    "deselect": "Deselect",
+    "confirm": "Confirm",
+    "reject": "Reject",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "nav": {
+    "home": "Home",
+    "predict": "Predict",
+    "dashboard": "Dashboard",
+    "documentation": "Documentation",
+    "faq": "FAQ",
+    "about": "About",
+    "contact": "Contact",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "title": "Welcome to AgriFuzzy",
+    "subtitle": "AI-Powered Agricultural Predictions",
+    "description": "Get accurate predictions and recommendations for your farm using advanced AI technology",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "features": {
+      "title": "Key Features",
+      "prediction": "AI Predictions",
+      "predictionDesc": "Get accurate predictions for crop yields and optimal growing conditions",
+      "management": "Farm Management",
+      "managementDesc": "Manage your farm operations efficiently with our comprehensive tools",
+      "analytics": "Advanced Analytics",
+      "analyticsDesc": "Analyze your farm data with powerful visualization tools"
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "subtitle": "Join thousands of satisfied farmers worldwide"
+    }
+  },
+  "predict": {
+    "title": "AI-Powered Farm Predictions",
+    "description": "Enter your farm data below to get AI-powered recommendations for optimal crop management",
+    "form": {
+      "environmentalData": {
+        "title": "Environmental Data",
+        "description": "Current weather and climate conditions",
+        "temperature": "Temperature (°C)",
+        "rainfall": "Rainfall (mm)",
+        "humidity": "Humidity (%)",
+        "avgTemp": "Avg. Temperature (°C)"
+      },
+      "soilData": {
+        "title": "Soil Data",
+        "description": "Soil composition and properties",
+        "soilType": "Soil Type",
+        "selectType": "Select type",
+        "types": {
+          "clay": "Clay",
+          "sandy": "Sandy",
+          "loamy": "Loamy",
+          "silt": "Silt"
+        },
+        "ph": "Soil pH",
+        "moisture": "Soil Moisture (%)",
+        "nitrogen": "Nitrogen (kg/ha)",
+        "phosphorus": "Phosphorus (kg/ha)"
+      },
+      "locationHistory": {
+        "title": "Location and History",
+        "description": "Geographic and historical information",
+        "region": "Region",
+        "previousCrop": "Previous Crop",
+        "faoClassification": "FAO Classification",
+        "dominantSoil": "Dominant Soil"
+      },
+      "submit": "Get AI Predictions",
+      "processing": "Processing..."
+    },
+    "results": {
+      "analyzing": "Analyzing your farm data...",
+      "noPredictions": "Fill in the form and click \"Get AI Predictions\" to see your results",
+      "waterManagement": {
+        "title": "Water Management",
+        "description": "Irrigation and water requirements",
+        "waterRequirement": "Water Requirement",
+        "waterRequirementDesc": "Optimal water needs for your crops",
+        "irrigation": "Irrigation Schedule",
+        "irrigationDesc": "Recommended watering frequency and timing"
+      },
+      "soilManagement": {
+        "title": "Soil Management",
+        "description": "Soil health and fertilizer recommendations",
+        "fertilizer": "Fertilizer Recommendation",
+        "fertilizerDesc": "Optimal fertilizer mix for your soil",
+        "soilPrep": "Soil Preparation",
+        "soilPrepDesc": "Recommended soil preparation methods"
+      },
+      "cropManagement": {
+        "title": "Crop Management",
+        "description": "Planting and harvesting schedules",
+        "planting": "Planting Date",
+        "plantingDesc": "Optimal time to plant your crops",
+        "harvesting": "Harvesting Date",
+        "harvestingDesc": "Expected time for crop harvest"
+      },
+      "riskAssessment": {
+        "title": "Risk Assessment",
+        "description": "Potential threats and preventive measures",
+        "pests": "Pest Risk",
+        "pestsDesc": "Potential pest threats and prevention strategies",
+        "diseases": "Disease Risk",
+        "diseasesDesc": "Potential disease threats and prevention strategies"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Farm Dashboard",
+    "overview": "Overview",
+    "statistics": "Statistics",
+    "recentActivity": "Recent Activity",
+    "upcomingTasks": "Upcoming Tasks",
+    "weather": "Weather",
+    "soilConditions": "Soil Conditions",
+    "cropHealth": "Crop Health",
+    "predictions": "Predictions",
+    "recommendations": "Recommendations"
+  },
+  "documentation": {
+    "title": "Documentation",
+    "gettingStarted": "Getting Started",
+    "features": "Features",
+    "api": "API Reference",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "support": "Support"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "search": "Search FAQ",
+    "categories": "Categories",
+    "popular": "Popular Questions",
+    "recent": "Recent Questions"
+  },
+  "about": {
+    "title": "About AgriFuzzy",
+    "mission": "Our Mission",
+    "team": "Our Team",
+    "technology": "Our Technology",
+    "partners": "Our Partners",
+    "careers": "Careers"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile Settings",
+    "account": "Account Settings",
+    "notifications": "Notification Settings",
+    "privacy": "Privacy Settings",
+    "language": "Language Settings",
+    "theme": "Theme Settings"
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "farmInfo": "Farm Information",
+    "preferences": "Preferences",
+    "security": "Security Settings"
+  }
+} 

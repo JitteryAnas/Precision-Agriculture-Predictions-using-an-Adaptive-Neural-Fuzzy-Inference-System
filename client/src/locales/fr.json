@@ -1,0 +1,213 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "submit": "Soumettre",
+    "processing": "Traitement en cours...",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "refresh": "Actualiser",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "more": "Plus",
+    "less": "Moins",
+    "all": "Tout",
+    "none": "Aucun",
+    "select": "Sélectionner",
+    "deselect": "Désélectionner",
+    "confirm": "Confirmer",
+    "reject": "Rejeter",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "required": "Requis",
+    "optional": "Optionnel"
+  },
+  "nav": {
+    "home": "Accueil",
+    "predict": "Prédire",
+    "dashboard": "Tableau de bord",
+    "documentation": "Documentation",
+    "faq": "FAQ",
+    "about": "À propos",
+    "contact": "Contact",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "Inscription"
+  },
+  "home": {
+    "title": "Bienvenue sur AgriFuzzy",
+    "subtitle": "Prédictions Agricoles Propulsées par l'IA",
+    "description": "Obtenez des prédictions et recommandations précises pour votre ferme grâce à notre technologie d'IA avancée",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "features": {
+      "title": "Fonctionnalités Clés",
+      "prediction": "Prédictions IA",
+      "predictionDesc": "Obtenez des prédictions précises pour les rendements des cultures et les conditions optimales de croissance",
+      "management": "Gestion de Ferme",
+      "managementDesc": "Gérez vos opérations agricoles efficacement avec nos outils complets",
+      "analytics": "Analyses Avancées",
+      "analyticsDesc": "Analysez vos données agricoles avec des outils de visualisation puissants"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos utilisateurs",
+      "subtitle": "Rejoignez des milliers d'agriculteurs satisfaits dans le monde entier"
+    }
+  },
+  "predict": {
+    "title": "Prédictions IA pour votre Ferme",
+    "description": "Entrez les données de votre ferme ci-dessous pour obtenir des recommandations optimisées par l'IA pour la gestion des cultures",
+    "form": {
+      "environmentalData": {
+        "title": "Données Environnementales",
+        "description": "Conditions météorologiques et climatiques actuelles",
+        "temperature": "Température (°C)",
+        "rainfall": "Précipitations (mm)",
+        "humidity": "Humidité (%)",
+        "avgTemp": "Température Moyenne (°C)"
+      },
+      "soilData": {
+        "title": "Données du Sol",
+        "description": "Composition et propriétés du sol",
+        "soilType": "Type de Sol",
+        "selectType": "Sélectionner le type",
+        "types": {
+          "clay": "Argileux",
+          "sandy": "Sableux",
+          "loamy": "Limon",
+          "silt": "Limoneux"
+        },
+        "ph": "pH du Sol",
+        "moisture": "Humidité du Sol (%)",
+        "nitrogen": "Azote (kg/ha)",
+        "phosphorus": "Phosphore (kg/ha)"
+      },
+      "locationHistory": {
+        "title": "Localisation et Historique",
+        "description": "Informations géographiques et historiques",
+        "region": "Région",
+        "previousCrop": "Culture Précédente",
+        "faoClassification": "Classification FAO",
+        "dominantSoil": "Sol Dominant"
+      },
+      "submit": "Obtenir les Prédictions IA",
+      "processing": "Traitement en cours..."
+    },
+    "results": {
+      "analyzing": "Analyse de vos données agricoles...",
+      "noPredictions": "Remplissez le formulaire et cliquez sur \"Obtenir les Prédictions IA\" pour voir vos résultats",
+      "waterManagement": {
+        "title": "Gestion de l'Eau",
+        "description": "Irrigation et besoins en eau",
+        "waterRequirement": "Besoins en Eau",
+        "waterRequirementDesc": "Besoins en eau optimaux pour vos cultures",
+        "irrigation": "Programme d'Irrigation",
+        "irrigationDesc": "Fréquence et timing d'arrosage recommandés"
+      },
+      "soilManagement": {
+        "title": "Gestion du Sol",
+        "description": "Santé du sol et recommandations d'engrais",
+        "fertilizer": "Recommandation d'Engrais",
+        "fertilizerDesc": "Mélange d'engrais optimal pour votre sol",
+        "soilPrep": "Préparation du Sol",
+        "soilPrepDesc": "Méthodes de préparation du sol recommandées"
+      },
+      "cropManagement": {
+        "title": "Gestion des Cultures",
+        "description": "Calendriers de plantation et de récolte",
+        "planting": "Date de Plantation",
+        "plantingDesc": "Moment optimal pour planter vos cultures",
+        "harvesting": "Date de Récolte",
+        "harvestingDesc": "Moment prévu pour la récolte"
+      },
+      "riskAssessment": {
+        "title": "Évaluation des Risques",
+        "description": "Menaces potentielles et mesures préventives",
+        "pests": "Risque de Ravageurs",
+        "pestsDesc": "Menaces potentielles de ravageurs et stratégies de prévention",
+        "diseases": "Risque de Maladies",
+        "diseasesDesc": "Menaces potentielles de maladies et stratégies de prévention"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord de la Ferme",
+    "overview": "Vue d'ensemble",
+    "statistics": "Statistiques",
+    "recentActivity": "Activité Récente",
+    "upcomingTasks": "Tâches à Venir",
+    "weather": "Météo",
+    "soilConditions": "Conditions du Sol",
+    "cropHealth": "Santé des Cultures",
+    "predictions": "Prédictions",
+    "recommendations": "Recommandations"
+  },
+  "documentation": {
+    "title": "Documentation",
+    "gettingStarted": "Premiers Pas",
+    "features": "Fonctionnalités",
+    "api": "Référence API",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "support": "Support"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "search": "Rechercher dans la FAQ",
+    "categories": "Catégories",
+    "popular": "Questions Populaires",
+    "recent": "Questions Récentes"
+  },
+  "about": {
+    "title": "À Propos d'AgriFuzzy",
+    "mission": "Notre Mission",
+    "team": "Notre Équipe",
+    "technology": "Notre Technologie",
+    "partners": "Nos Partenaires",
+    "careers": "Carrières"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le Message"
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Heures d'Ouverture"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "profile": "Paramètres du Profil",
+    "account": "Paramètres du Compte",
+    "notifications": "Paramètres des Notifications",
+    "privacy": "Paramètres de Confidentialité",
+    "language": "Paramètres de Langue",
+    "theme": "Paramètres du Thème"
+  },
+  "profile": {
+    "title": "Mon Profil",
+    "personalInfo": "Informations Personnelles",
+    "farmInfo": "Informations de la Ferme",
+    "preferences": "Préférences",
+    "security": "Paramètres de Sécurité"
+  }
+} 

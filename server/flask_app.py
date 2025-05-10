@@ -8,9 +8,12 @@ current_dir = Path(__file__).parent
 sys.path.append(str(current_dir))
 
 # Import the model
-from models import anfis_model
+from models.agri_model import AgriFuzzyProSystem
 
 app = Flask(__name__)
+
+# Initialize the model
+model = AgriFuzzyProSystem(data_path="data/agriculture_data.csv")
 
 # CORS handling for development
 @app.after_request
@@ -29,29 +32,33 @@ def predict():
         data = request.get_json()
         
         # Validate input data
-        required_fields = ['temperature', 'rainfall', 'humidity', 'ph']
+        required_fields = [
+            'temperature', 'rainfall', 'humidity', 'ph',
+            'soil_type', 'region', 'previous_crop',
+            'faosoil', 'domsoi', 'avg_temp', 'soil_moisture',
+            'nitrogen_level', 'phosphorus_level'
+        ]
+        
         for field in required_fields:
             if field not in data:
                 return jsonify({"error": f"Missing required field: {field}"}), 400
         
-        # Get values from request
-        temperature = float(data['temperature'])
-        rainfall = float(data['rainfall'])
-        humidity = float(data['humidity'])
-        ph = float(data['ph'])
-        
-        # Input validation
-        if not (0 <= temperature <= 50):
-            return jsonify({"error": "Temperature must be between 0 and 50°C"}), 400
-        if not (0 <= rainfall <= 500):
-            return jsonify({"error": "Rainfall must be between 0 and 500mm"}), 400
-        if not (0 <= humidity <= 100):
-            return jsonify({"error": "Humidity must be between 0 and 100%"}), 400
-        if not (0 <= ph <= 14):
-            return jsonify({"error": "pH must be between 0 and 14"}), 400
-        
         # Get prediction from ANFIS model
-        result = anfis_model.predict(temperature, rainfall, humidity, ph)
+        result = model.predict({
+            'temperature': float(data['temperature']),
+            'rainfall': float(data['rainfall']),
+            'humidity': float(data['humidity']),
+            'ph': float(data['ph']),
+            'soil_type': data['soil_type'],
+            'region': data['region'],
+            'previous_crop': data['previous_crop'],
+            'faosoil': data['faosoil'],
+            'domsoi': data['domsoi'],
+            'avg_temp': float(data['avg_temp']),
+            'soil_moisture': float(data['soil_moisture']),
+            'nitrogen_level': float(data['nitrogen_level']),
+            'phosphorus_level': float(data['phosphorus_level'])
+        })
         
         return jsonify(result)
         

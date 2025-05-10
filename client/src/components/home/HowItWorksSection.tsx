@@ -15,7 +15,7 @@ const HowItWorksSection = () => {
           <div>
             <div className="rounded-xl overflow-hidden shadow-lg h-[400px]">
               <img 
-                src="https://pixabay.com/get/gfbac86afc43d4f6be71d2545c6fdd28c9be475effd0da32206e5c394003dbe055321999dc9a9957c60a4b1c99781c379f37aff6a9bb1edc196d4c2ccb0af3858_1280.jpg" 
+                src="https://img.freepik.com/free-photo/smart-farming-with-agriculture-iot_53876-124634.jpg?t=st=1746835481~exp=1746839081~hmac=47a998222e48c38c76c857d721e35f37b452007327555a3f5e44e7494111d5c0&w=1380" 
                 alt="Agricultural technology in action" 
                 className="w-full h-full object-cover"
               />

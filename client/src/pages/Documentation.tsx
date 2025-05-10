@@ -58,7 +58,7 @@ const Documentation = () => {
                     <div className="md:w-1/2">
                       <div className="rounded-xl overflow-hidden shadow-md">
                         <img 
-                          src="https://images.unsplash.com/photo-1507692812060-98338d07aca3?auto=format&fit=crop&w=800&h=500" 
+                          src="https://img.freepik.com/free-photo/smart-robotic-farmer-spraying-fertilizer-vegetable-green-plants_35913-2325.jpg?t=st=1746835984~exp=1746839584~hmac=80fa2a6d02af82d93129585b9e33d8d26d7e80d518482e929b725631655b7091&w=996" 
                           alt="Représentation d'un réseau neuronal" 
                           className="w-full h-auto"
                         />

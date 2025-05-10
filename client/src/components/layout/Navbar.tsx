@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [location] = useLocation();
+  const { t } = useTranslation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -14,12 +17,12 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "Predict", path: "/predict" },
-    { name: "Documentation", path: "/documentation" },
-    { name: "FAQ", path: "/faq" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: t('nav.home'), path: "/" },
+    { name: t('nav.predict'), path: "/predict" },
+    { name: t('nav.documentation'), path: "/documentation" },
+    { name: t('nav.faq'), path: "/faq" },
+    { name: t('nav.about'), path: "/about" },
+    { name: t('nav.contact'), path: "/contact" },
   ];
 
   return (
@@ -48,12 +51,13 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          <div className="hidden sm:ml-6 sm:flex sm:items-center">
+          <div className="hidden sm:ml-6 sm:flex sm:items-center space-x-4">
+            <LanguageSwitcher />
             <Link 
               href="/predict" 
               className="bg-[#4CAF50] hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md transition"
             >
-              Get Started
+              {t('nav.predict')}
             </Link>
           </div>
           <div className="-mr-2 flex items-center sm:hidden">
@@ -88,12 +92,13 @@ const Navbar = () => {
           ))}
         </div>
         <div className="pt-4 pb-3 border-t border-gray-200">
-          <div className="flex items-center px-4">
+          <div className="flex flex-col space-y-4 px-4">
+            <LanguageSwitcher />
             <Link 
               href="/predict" 
               className="w-full bg-[#4CAF50] hover:bg-green-600 text-white font-medium py-2 px-4 rounded-md transition"
             >
-              Get Started
+              {t('nav.predict')}
             </Link>
           </div>
         </div>
