@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Application d'Agriculture Intelligente
 
 Cette application combine un frontend React/TypeScript avec un backend Flask pour fournir des prédictions agricoles basées sur des modèles ANFIS.
